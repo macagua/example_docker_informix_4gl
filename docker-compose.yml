@@ -1,0 +1,17 @@
+services:
+  informix:
+    image: icr.io/informix/informix-developer-database
+    container_name: informix_dev
+    environment:
+      - LICENSE=accept
+      - DB_LOCALE=es_ES.utf8
+      - CLIENT_LOCALE=es_ES.utf8
+    ports:
+      - "9088:9088"
+    volumes:
+      - informix_data:/opt/ibm/informix/data
+      - ./sql:/opt/ibm/informix/sql  # Carpeta local opcional para tus scripts SQL o fuentes
+    restart: unless-stopped
+
+volumes:
+  informix_data:
