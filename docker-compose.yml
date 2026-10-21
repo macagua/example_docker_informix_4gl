@@ -1,6 +1,6 @@
 services:
   informix:
-    image: icr.io/informix/informix-developer-database
+    image: icr.io/informix/informix-developer-database:14.10.FC7W1DE
     container_name: informix_dev
     environment:
       - LICENSE=accept
