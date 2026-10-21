@@ -1,6 +1,9 @@
 # IBM Informix 4GL Example
 
-An Example of IBM Informix 4GL deploy with Docker.
+An example of [IBM Informix 4GL](https://www.ibm.com/es-es/products/informix) Developer Edition deployment with Docker.
+
+<img width="720" alt="IBM Informix 4GL" src="https://raw.githubusercontent.com/macagua/example_docker_informix_4gl/refs/heads/main/docs/images/ibm-informix-logo.png">
+
 
 ## Download it
 
